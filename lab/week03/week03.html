@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>George Rodriguez - Resume</title>
+
+  <style>
+    body{
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background:#f4f4f4;
+      color:#222;
+      margin:0;
+      padding:40px 16px;
+      line-height:1.55;
+    }
+
+    .resume{
+      max-width: 920px;
+      margin: 0 auto;
+      background:#fff;
+      padding:44px;
+      border-radius:12px;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+    }
+
+    h1{
+      margin:0 0 6px 0;
+      color:#500000; 
+      letter-spacing:0.4px;
+      font-size:2rem;
+    }
+
+    .contact{
+      margin:0;
+      color:#555;
+      font-size:0.98rem;
+    }
+
+    .contact a{
+      color:#0056b3;
+      text-decoration:none;
+    }
+    .contact a:hover{ text-decoration:underline; }
+
+    section{ margin-top:22px; }
+
+    h2{
+      margin:0 0 12px 0;
+      color:#500000;
+      text-transform:uppercase;
+      font-size:1.05rem;
+      letter-spacing:0.6px;
+      border-left:6px solid #500000;
+      padding-left:10px;
+    }
+
+    .row{
+      display:flex;
+      justify-content:space-between;
+      align-items:baseline;
+      gap:16px;
+      flex-wrap:wrap;
+      margin-top:6px;
+    }
+
+    .title{
+      font-weight:700;
+      font-size:1.02rem;
+      color:#111;
+      margin:0;
+    }
+
+    .meta{
+      color:#666;
+      font-style:italic;
+      white-space:nowrap;
+    }
+
+    p{ margin:6px 0 8px 0; }
+
+    ul{
+      margin:8px 0 0 18px;
+      padding:0;
+    }
+    li{ margin:6px 0; }
+
+    .subtle{ color:#555; }
+
+    .divider{
+      border:none;
+      border-top:1px solid #eeeeee;
+      margin:18px 0;
+    }
+
+    .logo{
+      width:100px;
+      height:auto;
+      float:left;
+      margin-right:18px;
+    }
+
+    header{
+      text-align:center;
+      padding-bottom:18px;
+      border-bottom:2px solid #e9e9e9;
+      margin-bottom:22px;
+      overflow:auto;
+    }
+    
+  </style>
+</head>
+
+<!--Name and Contact Information Section-->
+
+<body>
+  <div class="resume">
+<header>
+  <img src="TAM-MaroonBox.jpg" 
+       alt="Texas A&M University Logo" 
+       class="logo">
+
+  <div class="header-text">
+    <h1>George Rodriguez</h1>
+    <p class="contact">
+      Houston, Texas |
+      <a href="mailto:geor3104@gmail.com">geor3104@gmail.com</a> |
+      (832) 469-7827 |
+      <a href="https://www.linkedin.com/in/george-rodriguez-913930327" target="_blank">
+        LinkedIn
+      </a>
+    </p>
+  </div>
+
+</header>
+
+  <!--Education Section-->
+
+    <section>
+      <h2>Education</h2>
+
+      <div class="row">
+        <p class="title">Texas A&amp;M University</p>
+        <span class="meta">College Station, TX</span>
+      </div>
+
+      <div class="row">
+        <p><strong>Bachelor of Science in Geographic Info Science &amp; Tech</strong></p>
+        <span class="meta">May 2026</span>
+      </div>
+
+      <p class="subtle">Cumulative GPA: 3.440</p>
+      <p class="subtle">
+        <em>Relevant Coursework:</em> Field Geography, Cartography and Visualization, Advanced Topics in GIS
+      </p>
+    </section>
+
+    <hr class="divider" />
+
+    <!--Work Experience Section-->
+
+    <section>
+      <h2>Work Experience</h2>
+
+      <div class="row">
+        <p class="title">Direct Resources</p>
+        <span class="meta">Houston, TX</span>
+      </div>
+
+      <div class="row">
+        <p><strong>Warehouse Associate</strong></p>
+        <span class="meta">May 2023 – Dec 2025</span>
+      </div>
+
+      <ul>
+        <li>Picked, packed, and fulfilled over 200+ orders with a high level of accuracy.</li>
+        <li>Organized and stored incoming shipments in designated inventory locations.</li>
+        <li>Trained and supported new employees on warehouse procedures and safety standards.</li>
+        <li>Assisted truck drivers with receiving and shipping 50+ pallets with a plethora of different products.</li>
+      </ul>
+    </section>
+
+    <hr class="divider" />
+
+
+    <!--Coursework Projects Section-->
+
+    <section>
+      <h2>University Projects</h2>
+
+      <div class="row">
+        <p class="title">School District Assessment</p>
+        <span class="meta">Dec 2025</span>
+      </div>
+      <ul>
+        <li>
+          Conducted GIS analysis of school district suitability in the Greater Austin Metro Area using census,
+          socioeconomic, and crime data to evaluate accessibility and future planning needs.
+        </li>
+        <li>
+          Applied spatial techniques including buffers, hotspot analysis, and weighted overlays to identify
+          underserved areas and optimal school locations.
+        </li>
+      </ul>
+
+      <div class="row" style="margin-top:14px;">
+        <p class="title">Tornado Frequency and Damage Analysis in Texas</p>
+        <span class="meta">Apr 2025</span>
+      </div>
+      <ul>
+        <li>
+          Analyzed 70+ years of Texas tornado data using GIS and statistical methods to identify spatial clusters and
+          statistically significant relationships between tornado frequency, population density, and property damage.
+        </li>
+        <li>
+          Applied ArcGIS Pro and RStudio to integrate NOAA and Census datasets, producing maps and statistical results
+          to support disaster risk assessment.
+        </li>
+      </ul>
+
+      <div class="row" style="margin-top:14px;">
+        <p class="title">Cartography and GIS Story Map</p>
+        <span class="meta">Dec 2024</span>
+      </div>
+      <ul>
+        <li>
+          Designed a bivariate choropleth map in ArcGIS Pro visualizing median income and poverty rates across Texas cities
+          using U.S. census data.
+        </li>
+      </ul>
+    </section>
+
+    <hr class="divider" />
+
+    <!--Volunteer Work and Organization Section-->
+    
+    <section>
+      <h2>Organizations and Volunteer Work</h2>
+
+      <div class="row">
+        <p class="title">Texas A&amp;M Earth Day</p>
+        <span class="meta">College Station, TX</span>
+      </div>
+      <ul>
+        <li>
+          Helped set up the Department of Geography’s event table and assisted attendees with any questions they had
+          regarding our department and their involvement towards Earth Day.
+        </li>
+      </ul>
+
+      <div class="row" style="margin-top:12px;">
+        <p class="title">BS/CS Food Bank</p>
+        <span class="meta">College Station, TX</span>
+      </div>
+      <ul>
+        <li>Provided food for people in need by aiding in packaging food into containers for distribution.</li>
+      </ul>
+
+      <div class="row" style="margin-top:12px;">
+        <p class="title">Texas A&amp;M GIS Day</p>
+        <span class="meta">College Station, TX</span>
+      </div>
+      <ul>
+        <li>
+          Assisted with event coordination and attendee engagement for a campus GIS outreach event, ensuring smooth
+          operations and positive participant experiences.
+        </li>
+      </ul>
+
+      <div class="row" style="margin-top:12px;">
+        <p class="title">Texas A&amp;M Geography Society</p>
+        <span class="meta">College Station, TX</span>
+      </div>
+      <div class="row">
+        <p><strong>Member</strong></p>
+        <span class="meta">Aug 2023 – Present</span>
+      </div>
+      <ul>
+        <li>
+          Engaged in networking events, professional development activities and interactions with industry speakers to
+          strengthen geographic and career readiness skills.
+        </li>
+      </ul>
+    </section>
+
+    <hr class="divider" />
+
+    <!--Technical Skills Section-->
+
+    <section>
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Spanish, English</p>
+      <p><strong>Skills:</strong> ArcGIS Pro, Python, Office 365, Data Analysis, Data Visualization</p>
+    </section>
+
+  </div>
+</body>
+</html>
