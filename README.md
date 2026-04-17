@@ -9,4 +9,4 @@
 | [week05](homework/week05) | [week05](lab/week05/Custom_Map.html) | |
 | [week06](homework/week06) | [week06](lab/week06/Custom_Map.html) | |
 | [week07](homework/week07) | [week07](lab/week07.html) | |
-| [week08](homework/week08) | [week08](lab/week08) | |
+| [week08](homework/week08) | [week08](lab/week08.html) | |
